@@ -1,14 +1,12 @@
 @import url('bootstrap.min.css');
 @import url('progress.css');
 
-#data p{
-    background-color: bisque;
-    color: indigo;
-    margin-top: 10px;
+.avatar{
+    border-radius: 20px;
+    float: left;
 }
 
-#data p.error{
-    background-color: red;
-    color: white;
-    margin-top: 10px;
+.card{
+    min-width: 300px;
+    max-width:500px;
 }

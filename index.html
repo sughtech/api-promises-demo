@@ -7,29 +7,12 @@
     <title>Promises Demo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container"> 
+<body> 
+    <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-5 mt-5 mx-sm-1">
-                <div class="text-center mb-4">
-                    <h3>Sentence List Generator</h3>
-                    <h5>Generate a list of sentences</h5>
-                </div>
-                <form class="form-horizontal">
-                    <div class="form-group">
-                      <label for="timeInputField">Wait Time (in seconds)</label>
-                      <input type="text" name="timeInputField" id="timeInputField" class="form-control" placeholder="" aria-describedby="helpId">
-                      <small id="helpId" class="text-muted">Maximum wait time: 7 seconds</small>
-                    </div>
-                    <div class="form-group">
-                        <button type="button" class="btn btn-primary" onclick="manipulateData()">Submit</button>
-                    </div>
-                </form>
-                <div id='data'></div>
-            </div>
+            <div id="data"></div>
         </div>
-    </div>
-
+    </div> 
     <script src="./script.js"></script>
     
 </body>
